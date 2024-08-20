@@ -1,0 +1,30 @@
+{
+	"info": {
+		"_postman_id": "70ea3f07-c6d9-41c8-9837-a25b8c95a296",
+		"name": "sample",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "3023155"
+	},
+	"item": [
+		{
+			"name": "1. cat-facts",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://cat-fact.herokuapp.com/facts",
+					"protocol": "https",
+					"host": [
+						"cat-fact",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"facts"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
